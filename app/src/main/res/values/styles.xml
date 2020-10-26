@@ -1,10 +1,17 @@
 <resources>
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
+    <string name="app_name">Project</string>
 
+
+    <!-- String for the Walkthrough -->
+    <!--Titles-->
+    <string name="first_slide_title">Marketplace</string>
+    <string name="second_slide_title">Rent</string>
+    <string name="third_slide_title"> Account</string>
+    <string name="fourth_slide_title">Taxi</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">Buy and sell your cars on our Marketplace with numerous different options.</string>
+    <string name="second_slide_desc">Choose from a wide range of cars to rent.</string>
+    <string name="third_slide_desc">Dont want a car? Request a taxi to take you to your destination</string>
+    <string name="fourth_slide_desc">Create an Account!</string>
 </resources>
