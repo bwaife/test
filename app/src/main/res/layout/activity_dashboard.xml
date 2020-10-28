@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Dashboard">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="279dp"
+        android:layout_height="96dp"
+        android:text="Dashboard"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="322dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

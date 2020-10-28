@@ -7,6 +7,18 @@
     tools:context=".IntroActivity"
     android:padding="20sp">
 
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:onClick="skip"
+       app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="10dp"
+        android:background="#00000000"
+        android:drawableEnd="@drawable/skip"/>
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/slider"
         android:layout_width="match_parent"
@@ -15,6 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
     </androidx.viewpager.widget.ViewPager>
 
     <RelativeLayout
@@ -26,10 +39,14 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
+
+            android:id="@+id/btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/lets_get_started_btn"
             android:text="Lets Get Started"
-            android:background="@color/lets_get_started_btn"/>
+            android:onClick="next"
+            android:visibility="invisible"/>
 
         <LinearLayout
             android:id="@+id/dots"
